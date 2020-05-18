@@ -1,13 +1,13 @@
-package com.cihan.springexamples;
+package com.cihan.springexamples.springsecurityjwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringExamplesApplication {
+public class SpringSecurityJwtApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringExamplesApplication.class, args);
+        SpringApplication.run(SpringSecurityJwtApplication.class, args);
     }
 
 }

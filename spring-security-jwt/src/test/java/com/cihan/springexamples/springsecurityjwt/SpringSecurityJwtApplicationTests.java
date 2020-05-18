@@ -1,10 +1,10 @@
-package com.cihan.springexamples;
+package com.cihan.springexamples.springsecurityjwt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringExamplesApplicationTests {
+class SpringSecurityJwtApplicationTests {
 
     @Test
     void contextLoads() {
