@@ -46,9 +46,10 @@ public class TokenManager {
     }
 
     private Claims getClaim(String token) {
-        return Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
-    }
-    private Claims getClaimNew(String token) {
         return (Claims) Jwts.parserBuilder().setSigningKey(key).build().parse(token).getBody();
+    }
+
+    private Claims getClaimDeprecated(String token) {
+        return Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
     }
 }
